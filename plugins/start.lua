@@ -12,6 +12,23 @@ local function do_keyboard_fulladmin()
     }
     return keyboard
 end
+local function do_keyboard_mrblabout()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+		{
+    					{text = '🔆InstaGram', url = 'https://instagram.com/_u/mrblacklife'},
+			},
+    		    		{text = '🔆Telegram', callback_data = 'https://t.me/mrblacklife'},
+{text = '🔆Github', callback_data = 'https://github.com/3pehrdev'},
+		},
+		{text = '🔆Robot', callback_data = 'https://t.me/Sphero_Bot'},
+},
+	    {
+	    {text = '🔙', callback_data = '!fulladmin'}
+        }
+    }
+    return keyboard
+end
 local function do_keyboard_robots()
     local keyboard = {}
     keyboard.inline_keyboard = {
