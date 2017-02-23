@@ -413,8 +413,8 @@ end
     end
 		if query == 'dragon' then
 		local keyboard = do_keyboard_dragon()
-		local text = [[*Name :* _Mohammad_
-*Age :* _20_
+		local text = [[*Name :* _Mohammad_ (Mamali)
+*Age :* _... :)_
 *Project : * _Spammer | Manager_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
@@ -449,7 +449,7 @@ end
 		if query == 'amirh' then
 		local keyboard = do_keyboard_amirh()
 		local text = [[*Name :* _Amirhossein_
-*Age :* _17_
+*Age :* _18_
 *Project : * _Edit|Fix Bots_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
