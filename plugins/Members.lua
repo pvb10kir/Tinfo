@@ -35,6 +35,8 @@ local function do_keyboard_members1()
 	    {text = '🔙', callback_data = '!home'},
 	    }
     }
+	return keyboard
+end
 	local function do_keyboard_members2()
     local keyboard = {}
     keyboard.inline_keyboard = {
@@ -57,6 +59,8 @@ local function do_keyboard_members1()
 	    {text = '🔙', callback_data = '!home'},
 	    }
     }
+	return keyboard
+end
 local function do_keyboard_neoerfan()
     local keyboard = {}
     keyboard.inline_keyboard = {
