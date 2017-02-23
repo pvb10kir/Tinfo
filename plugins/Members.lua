@@ -283,7 +283,7 @@ return {
   action = action,
 triggers = {
 	    '^###cb:!(members)',
-	    '^###cb:!(neoerfan)'
+	    '^###cb:!(neoerfan)',
 	'^###cb:!(dragon)',
 	'^###cb:!(mamad)',
 	 '^###cb:!(nafas)',
