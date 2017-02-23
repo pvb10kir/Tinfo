@@ -148,21 +148,6 @@ local function do_keyboard_members()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '✔️7Members[1]', callback_data = '!members1'},
- },
-		{
-    		{text = '✔️7Members[2]', callback_data = '!members2'},
- },
-			{
-	    {text = '🔙', callback_data = '!home'},
-	    }
-    }
-    return keyboard
-end
-local function do_keyboard_members1()
-    local keyboard = {}
-    keyboard.inline_keyboard = {
-    	{
     		{text = '✔️Neo Erfan', callback_data = '!neoerfan'},
 			{text = '✔️Dragon', callback_data = '!dragon'},
 			},
@@ -172,40 +157,29 @@ local function do_keyboard_members1()
 			},
 			{
     		{text = '✔️Metti', callback_data = '!metti'},
-		{text = '✔️AmirHo3in', callback_data = '!amirh'},
-			},
-				{
-			{text = '✔️Nafas', callback_data = '!nafas'},
-			},
-		{
-	    {text = '🔙', callback_data = '!home'},
-	    }
-    }
-	return keyboard
-end
-	local function do_keyboard_members2()
-    local keyboard = {}
-    keyboard.inline_keyboard = {
-    	{
-				{text = '✔️Baran', callback_data = '!baran'},
-			{text = '✔️Mehdi', callback_data = '!mehdi'},
+			{text = '✔️AmirHo3in', callback_data = '!amirh'},
 			},
 			{
+    		{text = '✔️Nafas', callback_data = '!nafas'},
+			{text = '✔️Baran', callback_data = '!baran'},
+			},
+			{
+    		{text = '✔️Mehdi', callback_data = '!mehdi'},
 			{text = '✔️Mohammad', callback_data = '!mamad'},
-			{text = '✔️Clever', callback_data = '!clever'},
 			},
 			{
+    		{text = '✔️Clever', callback_data = '!clever'},
 			{text = '✔️Ali', callback_data = '!ali'},
-			{text = '✔️Mehrpouya', callback_data = '!mpouya'},
 			},
 			{
+    			{text = '✔️Mehrpouya', callback_data = '!mpouya'},
 			{text = '✔️Deni3d', callback_data = '!deni3d'},
 			},
 			{
 	    {text = '🔙', callback_data = '!home'},
 	    }
     }
-	return keyboard
+    return keyboard
 end
 local function do_keyboard_neoerfan()
     local keyboard = {}
@@ -428,16 +402,6 @@ end
 		local keyboard = do_keyboard_members()
 		local text = [[`All Members BlackLifeTM`
 *CHoose One of iniline KeyBoards.*]]
-		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
-    end
-	if query == 'members1' then
-		local keyboard = do_keyboard_neoerfan()
-		local text = [[*1-List 7 Members From BlackLifeTM:*]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
-    end
-	if query == 'members2' then
-		local keyboard = do_keyboard_neoerfan()
-		local text = [[*2-List 7 Members From BlackLifeTM:*]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 	if query == 'neoerfan' then
