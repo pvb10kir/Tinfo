@@ -362,7 +362,7 @@ if query == 'opensources' then
 end
 		if query == 'pmresan' then
             local text = [[🔳_Hi, You Can Tell_  @MrBlackLife _ For Create Your pmresan Bot_
-			*Example's :* @Sphero_Bot | @Sendpmtobot
+			*Example's : *Goto Inline KeyBoard :D*
 			*+ 3 Your Favorite inline Keyboard *
 			]]
             local keyboard = do_keyboard_pmresan()
