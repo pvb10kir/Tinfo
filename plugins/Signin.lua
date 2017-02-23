@@ -2,7 +2,7 @@ local function do_keyboard_endsignin()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '🔚End Signup (Forever)', callback_data = '/end'}
+    		{text = '🔚End Signin (Forever)', callback_data = '/endsignin'}
 	    },
 		{
     		{text = '📣JoinUs.', url = 'https://t.me/BlackLifeTM'}
@@ -34,7 +34,7 @@ end
 if msg.chat.type == 'private' and chat_info == 'true' then
 if blocks[1] == 'end' or blocks[1] == 'chat' then return nil end
 api.forwardMessage('-206352128', msg.chat.id, msg_id) 
-api.sendKeyboard(msg.chat.id, 'Wait For AnsWer.'  ,do_keyboard_endchat(), true)
+api.sendKeyboard(msg.chat.id, 'Wait For AnsWer.'  ,do_keyboard_endsignin(), true)
 end
 if blocks[1] == 'blocksi' then
 if msg.reply and msg.reply.forward_from and msg.chat.type == 'group' and msg.chat.id == -206352128 and not blocks[2] then
@@ -87,7 +87,7 @@ triggers = {
     '^/(signin)$',
     '^/(endsigin)$',
 	'^###cb:/(signin)',
-	'^###cb:/(endsigin)',
+	'^###cb:/(endsignin)',
     '^(.*)$',
 }
 }
