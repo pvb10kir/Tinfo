@@ -4,7 +4,7 @@ return {
 	channel = '@sphero_ch', --channel username with the '@'
 
 	plugins = {
-		'start.lua','Contact.lua','Members.lua',
+		'start.lua','Contact.lua',
 	},
 	api_errors = {
 		[101] = 'Not enough rights to kick participant', --SUPERGROUP: bot is not admin
