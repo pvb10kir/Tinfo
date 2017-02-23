@@ -428,7 +428,7 @@ end
 		local keyboard = do_keyboard_members()
 		local text = [[`All Members BlackLifeTM`
 *CHoose One of iniline KeyBoards.*]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 	if query == 'members1' then
 		local keyboard = do_keyboard_neoerfan()
@@ -438,98 +438,98 @@ end
 	if query == 'members2' then
 		local keyboard = do_keyboard_neoerfan()
 		local text = [[*2-List 7 Members From BlackLifeTM:*]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 	if query == 'neoerfan' then
 		local keyboard = do_keyboard_neoerfan()
 		local text = [[*Name :* _Erfan_
 *Age :* _14_
 *Project : * _Design | Logo_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'dragon' then
 		local keyboard = do_keyboard_dragon()
 		local text = [[*Name :* _Mohammad_
 *Age :* _20_
 *Project : * _Spammer | Manager_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'mamad' then
 		local keyboard = do_keyboard_mamad()
 		local text = [[*Name :* _Mohammad_
 *Age :* _16_
 *Project : * _Graphic | Banner Designer_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'nafas' then
 		local keyboard = do_keyboard_nafas()
 		local text = [[*Name :* _Nafas_
 *Age :* _22_
 *Project : * _Programmer_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'baran' then
 		local keyboard = do_keyboard_baran()
 		local text = [[*Name :* _Baran_
 *Age :* _20_
 *Project : * _Support CLI Bots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'mehrad' then
 		local keyboard = do_keyboard_mehrad()
 		local text = [[*Name :* _Mehrad_
 *Age :* _22_
 *Project : * _Dev | fix | Edit ClI|API Bots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'amirh' then
 		local keyboard = do_keyboard_amirh()
 		local text = [[*Name :* _Amirhossein_
 *Age :* _17_
 *Project : * _Edit|Fix Bots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'nima' then
 		local keyboard = do_keyboard_nima()
 		local text = [[*Name :* _Nima_
 *Age :* _16_
 *Project : * _Write | Debug Cli Bots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'metti' then
 		local keyboard = do_keyboard_metti()
 		local text = [[*Name :* _Mehdi_
 *Age :* _17_
 *Project : * _Dev API python Bot's_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'deni3d' then
 		local keyboard = do_keyboard_deni3d()
 		local text = [[*Name :* _Mohammad_
 *Age :* _17_
 *Project : * _Telegram API|CLI Bots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'mpouya' then
 		local keyboard = do_keyboard_mpouya()
 		local text = [[*Name :* _Mehrpouya_
 *Age :* _15_
 *Project : * _Cli Bots | Site Dev_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'clever' then
 		local keyboard = do_keyboard_clever()
 		local text = [[*Name :* _---_
 *Age :* _18_
 *Project : * _Dev | Debug php Bots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'ali' then
 		local keyboard = do_keyboard_ali()
 		local text = [[*Name :* _Ali_
 *Age :* _13_
 *Project : * _Programmer | TeamBots_]]
-		api.editMessageText(chat, msg_id, text, keyboard, true)
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
     end
 
