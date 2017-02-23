@@ -61,8 +61,8 @@ local msg_id = msg.message_id
 local chat = msg.chat.id
 local query = blocks[1]
     if msg.cb then
-	if query == 'aboutus' then
-		local keyboard = do_keyboard_aboutus()
+	if query == 'members' then
+		local keyboard = do_keyboard_members()
 		local text = [[خوش اومدید اینجا میتونید اطلاعاتی در مورد
 			@MrBlackLife
 			بدست بیارید و اونو بیشتر بشناسید]]
@@ -87,7 +87,7 @@ local query = blocks[1]
 return {
   action = action,
 triggers = {
-	    '^###cb:!(aboutus)',
+	    '^###cb:!(members)',
 	    '^###cb:!(accounts)',
 	    '^###cb:!(about)',
     }
