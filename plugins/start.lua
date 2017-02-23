@@ -327,9 +327,9 @@ local action = function(msg, blocks, ln)
         db:hincrby('bot:general', 'users', 1)
         if msg.chat.type == 'private' then
             local message = [[📥*Welcome*
-			🆕I'M info Bot
-			🆗Can i Help You?
-		🎌`Page` _:_ *1* `of` *2*]]
+🆕I'M info Bot
+🆗Can i Help You?
+🎌`Page` _:_ *1* `of` *2*]]
             local keyboard = do_keyboard_private()
             api.sendKeyboard(msg.from.id, message, keyboard, true)
             end
@@ -349,8 +349,8 @@ local action = function(msg, blocks, ln)
 end
 if query == 'mrblabout' then
             local text = [[⬛️`HI, i'm Sepehr
-			You Can Know Me Better...`
-			*=))*]]
+You Can Know Me Better...`
+*=))*]]
             local keyboard = do_keyboard_mrblabout()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
@@ -362,8 +362,8 @@ if query == 'opensources' then
 end
 		if query == 'pmresan' then
             local text = [[🔳_Hi, You Can Tell_  @MrBlackLife _ For Create Your pmresan Bot_
-			*Example's :* *Goto Inline KeyBoard :D*
-			*+ 3 Your Favorite inline Keyboard *
+*Example's :* *Goto Inline KeyBoard :D*
+*+ 3 Your Favorite inline Keyboard *
 			]]
             local keyboard = do_keyboard_pmresan()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
@@ -377,20 +377,20 @@ end
 end
 		if query == 'fulladmin' then
             local text = [[`Hi,
-			🔲this Inline Key for BlackLife FullAdmin About`]]
+🔲this Inline Key for BlackLife FullAdmin About`]]
             local keyboard = do_keyboard_fulladmin()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 			if query == 'page2' then
             local text = [[`Hi,
-			🔲WelCome.
-			`🎌Page :` *2* `of` *2*`]]
+🔲WelCome.
+`🎌Page :` *2* `of` *2*]]
             local keyboard = do_keyboard_page2()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 if query == 'home' then
             local text = [[*Welcome Back*
-		🎌`Page :` *1* `of` *2*
+🎌`Page :` *1* `of` *2*
 ]]
             local keyboard = do_keyboard_private()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
