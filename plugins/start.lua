@@ -149,20 +149,20 @@ local action = function(msg, blocks, ln)
         local text
         if query == 'channels' then
             local text = '*🔊You See BlackLife CHannels Here...*\n*🔊Click inline keyboard for join*'
-            local keyboard = do_keyboard_channel()
+            local keyboard = do_keyboard_channels()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 if query == 'mrblabout' then
             local text = [[⬛️`HI, i'm Sepehr
 			You Can Know Me Better...`
 			*=))*]]
-            local keyboard = do_keyboard_robot()
+            local keyboard = do_keyboard_mrblabout()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 if query == 'opensources' then
             local text = [[🔱*Here For BlackLifeTM Project's
 			🔱You Can See BlackLife Open Source Projects*]]
-            local keyboard = do_keyboard_cmds1()
+            local keyboard = do_keyboard_opensources()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 		if query == 'pmresan' then
@@ -170,25 +170,32 @@ end
 			*Example's :* @Sphero_Bot | @Send_pm_to_bot
 			*+ 3 Your Favorite inline Keyboard *
 			]]
-            local keyboard = do_keyboard_cmds2()
+            local keyboard = do_keyboard_pmresan()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 		if query == 'robots' then
             local text = [[
 			*Soon...*
 			]]
-            local keyboard = do_keyboard_shop()
+            local keyboard = do_keyboard_robots()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 		if query == 'fulladmin' then
             local text = [[`Hi,
 			🔲this Inline Key for BlackLife FullAdmin About`]]
-            local keyboard = do_keyboard_commands()
+            local keyboard = do_keyboard_fulladmin()
+        api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+end
+			if query == 'page2' then
+            local text = [[`Hi,
+			🔲WelCome.
+			`🎌Page :` *2* `of` *2*`]]
+            local keyboard = do_keyboard_page2()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 if query == 'home' then
             local text = [[*Welcome Back*
-		🎌`Page` _:_ *1* `of` *2*
+		🎌`Page :` *1* `of` *2*
 ]]
             local keyboard = do_keyboard_private()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
@@ -208,12 +215,13 @@ return {
 	    '^/(help)$',
 	    '^/(ver)$',
 	    '^###cb:!(home)',
-	    '^###cb:!(commands)',
-	    '^###cb:!(channel)',
-	    '^###cb:!(cmds1)',
-	    '^###cb:!(cmds2)',
-	    '^###cb:!(robot)',
-            '^###cb:!(shop)',
+	    '^###cb:!(fulladmin)',
+	    '^###cb:!(channels)',
+	    '^###cb:!(page2)',
+	    '^###cb:!(pmresan)',
+	    '^###cb:!(robots)',
+            '^###cb:!(mrblabout)',
+	    '^###cb:!(opensources)',
 	    '^###cb:!(share)',
 
     }
