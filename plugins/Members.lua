@@ -1,14 +1,35 @@
-local function do_keyboard_aboutus()
+local function do_keyboard_members()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = 'اکانت های MrBlackLife', callback_data = '!accounts'},
+    		{text = '✔️Neo Erfan', callback_data = '!neoerfan'},
+			{text = '✔️Dragon', callback_data = '!dragon'},
 			},
 			{
-			{text = '🔮اطلاعات شخصی MrBlackLife📦', callback_data = '!about'},
+    		{text = '✔️Mehrad', callback_data = '!mehrad'},
+			{text = '✔️Nima', callback_data = '!nima'},
 			},
 			{
-	    {text = 'Back - بازگشت', callback_data = '!home'},
+    		{text = '✔️Metti', callback_data = '!metti'},
+			{text = '✔️AmirHo3in', callback_data = '!amirh'},
+			},
+			{
+    		{text = '✔️Nafas', callback_data = '!nafas'},
+			{text = '✔️Baran', callback_data = '!baran'},
+			},
+			{
+    		{text = '✔️Mehdi', callback_data = '!mehdi'},
+			{text = '✔️Mohammad', callback_data = '!mamad'},
+			},
+			{
+    		{text = '✔️Clever', callback_data = '!clever'},
+			{text = '✔️Ali', callback_data = '!ali'},
+			},
+			{
+    		{text = '✔️Mehrpouya', callback_data = '!mpouya'},
+			},
+			{
+	    {text = '🔙', callback_data = '!home'},
 	    }
     }
     return keyboard
