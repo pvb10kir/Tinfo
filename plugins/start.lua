@@ -68,7 +68,7 @@ local function do_keyboard_pmresan()
 	    {text = '🔺MrBlackLife Private', url = 'https://t.me/MrBlackLife'},
  },     
 		{
-	    {text = '🔺Direct Connect', callback_data = '/direct'},
+	    {text = '🔺Direct Connect', callback_data = '/chat'},
  },   
 {
 	    {text = '🔙', callback_data = '!page2'},
@@ -101,7 +101,7 @@ local function do_keyboard_page2()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '✅Sign In BlackLife', callback_data = '/signin'},
+    		{text = '✅Sign In BlackLife', callback_data = '/chat'},
 	    },
 		{
 	        {text = '🆔ChannelS', callback_data = '!channels'},
