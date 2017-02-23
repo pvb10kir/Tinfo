@@ -516,8 +516,6 @@ return {
 	    '^###cb:!(opensources)',
 	    '^###cb:!(share)',
 	'^###cb:!(members)',
-		'^###cb:!(members1)',
-		'^###cb:!(members2)',
 	    '^###cb:!(neoerfan)',
 	'^###cb:!(dragon)',
 	'^###cb:!(mamad)',
