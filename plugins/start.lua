@@ -15,16 +15,9 @@ end
 local function do_keyboard_robots()
     local keyboard = {}
     keyboard.inline_keyboard = {
-{
-    		    		{text = 'دستورات پرکاربرد کلی', callback_data = '!cmds1'},
-    		    		{text = 'اموزش های بیشتر', url = 'https://telegram.me/sphero_ch'},
-	    },
-		{
-	    {text = 'اموزش ادمین کردن در ربات', callback_data = '!cmds2'},
- },      
-	    {
-	    {text = '🔙بازگشت', callback_data = '!robot'}
- }      
+	{
+	    {text = '🔙', callback_data = '!home'},
+ }
     }
     return keyboard
 end
