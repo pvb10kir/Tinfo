@@ -26,7 +26,8 @@ local function do_keyboard_members()
 			{text = '✔️Ali', callback_data = '!ali'},
 			},
 			{
-    		{text = '✔️Mehrpouya', callback_data = '!mpouya'},
+    			{text = '✔️Mehrpouya', callback_data = '!mpouya'},
+			{text = '✔️Deni3d', callback_data = '!deni3d'},
 			},
 			{
 	    {text = '🔙', callback_data = '!home'},
@@ -63,14 +64,73 @@ local query = blocks[1]
     if msg.cb then
 	if query == 'members' then
 		local keyboard = do_keyboard_members()
-		local text = [[خوش اومدید اینجا میتونید اطلاعاتی در مورد
-			@MrBlackLife
-			بدست بیارید و اونو بیشتر بشناسید]]
+		local text = [[`All Members BlackLifeTM`
+*CHoose One of iniline KeyBoards.*]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
-	if query == 'accounts' then
+	if query == 'neoerfan' then
 		local keyboard = do_keyboard_accounts()
-		local text = [[اکانت های شخصی من]]
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'dragon' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'mpouya' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'mamad' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'nafas' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'baran' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'mehrad' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'nima' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'metti' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'deni3d' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'mpouya' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'accounts' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
+		if query == 'accounts' then
+		local keyboard = do_keyboard_accounts()
+		local text = [[]]
 		api.editMessageText(chat, msg_id, text, keyboard, true)
     end
 	if query == 'about' then
