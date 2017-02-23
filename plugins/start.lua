@@ -495,6 +495,13 @@ end
 *Project : * _Programmer | TeamBots_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
+		if query == 'mehdi' then
+		local keyboard = do_keyboard_mehdi()
+		local text = [[*Name :* _Mehdi_
+*Age :* _18_
+*Project : * _Virtual Number's | AntiSpam_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
     end
 
 end
@@ -524,6 +531,7 @@ return {
 	'^###cb:!(mehrad)',
 	'^###cb:!(amirh)',
 	'^###cb:!(nima)',
+	'^###cb:!(mehdi)',
 	'^###cb:!(metti)',
 	'^###cb:!(deni3d)',
 	'^###cb:!(mpouya)',
