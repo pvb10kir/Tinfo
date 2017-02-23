@@ -383,7 +383,7 @@ end
 end
 			if query == 'page2' then
             local text = [[`Hi,
-🔲WelCome.
+🔲WelCome.`
 `🎌Page :` *2* `of` *2*]]
             local keyboard = do_keyboard_page2()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
