@@ -361,8 +361,8 @@ if query == 'opensources' then
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
 		if query == 'pmresan' then
-            local text = [[🔳_Hi, You Can Tell_ @MrBlackLife_ For Create Your pmresan Bot_
-			*Example's :* @Sphero_Bot | @Send_pm_to_bot
+            local text = [[🔳_Hi, You Can Tell_  @MrBlackLife _ For Create Your pmresan Bot_
+			*Example's :* @Sphero_Bot | @Sendpmtobot
 			*+ 3 Your Favorite inline Keyboard *
 			]]
             local keyboard = do_keyboard_pmresan()
@@ -413,7 +413,7 @@ end
     end
 		if query == 'dragon' then
 		local keyboard = do_keyboard_dragon()
-		local text = [[*Name :* _Mohammad_ (Mamali)
+		local text = [[*Name :* _Mohammad (Mamali)_
 *Age :* _... :)_
 *Project : * _Spammer | Manager_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
@@ -449,7 +449,7 @@ end
 		if query == 'amirh' then
 		local keyboard = do_keyboard_amirh()
 		local text = [[*Name :* _Amirhossein_
-*Age :* _18_
+*Age :* _19_
 *Project : * _Edit|Fix Bots_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
