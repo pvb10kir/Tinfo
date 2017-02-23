@@ -32,7 +32,7 @@ api.sendMessage(msg.chat.id, '- *Signup Ended!*\n*Send me* /start *if you need m
 end
 end
 if msg.chat.type == 'private' and chat_info == 'true' then
-if blocks[1] == 'end' or blocks[1] == 'chat' then return nil end
+if blocks[1] == 'endsignin' or blocks[1] == 'signin' then return nil end
 api.forwardMessage('-206352128', msg.chat.id, msg_id) 
 api.sendKeyboard(msg.chat.id, 'Wait For AnsWer.'  ,do_keyboard_endsignin(), true)
 end
