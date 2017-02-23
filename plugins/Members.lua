@@ -211,9 +211,13 @@ local query = blocks[1]
 	if query == 'members1' then
 		local keyboard = do_keyboard_neoerfan()
 		local text = [[*1-List 7 Members From BlackLifeTM:*]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
 	if query == 'members2' then
 		local keyboard = do_keyboard_neoerfan()
 		local text = [[*2-List 7 Members From BlackLifeTM:*]]
+		api.editMessageText(chat, msg_id, text, keyboard, true)
+    end
 	if query == 'neoerfan' then
 		local keyboard = do_keyboard_neoerfan()
 		local text = [[*Name :* _Erfan_
