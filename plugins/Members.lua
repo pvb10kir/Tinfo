@@ -42,6 +42,7 @@ local function do_keyboard_neoerfan()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Erf4n'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_dragon()
@@ -51,6 +52,7 @@ local function do_keyboard_dragon()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/dragon_black'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_mehrad()
@@ -60,6 +62,7 @@ local function do_keyboard_mehrad()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/MrJacki'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_nima()
@@ -69,6 +72,7 @@ local function do_keyboard_nima()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/JackiDev'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_metti()
@@ -78,6 +82,7 @@ local function do_keyboard_metti()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/MrMetti'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_amirh()
@@ -87,6 +92,7 @@ local function do_keyboard_amirh()
 		{text = '▪️Goto MemBer Pv', url = 'https://t.me/please_dont_send_pm'},	
 		{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_nafas()
@@ -96,6 +102,7 @@ local function do_keyboard_nafas()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/programmer_cli'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_baran()
@@ -105,6 +112,7 @@ local function do_keyboard_baran()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Niyazrobo'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_mehdi()
@@ -114,6 +122,7 @@ local function do_keyboard_mehdi()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/i_am_nil'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_mamad()
@@ -123,6 +132,7 @@ local function do_keyboard_mamad()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Moharak'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_clever()
@@ -132,6 +142,7 @@ local function do_keyboard_clever()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/cLeVeRm'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_ali()
@@ -141,6 +152,7 @@ local function do_keyboard_ali()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/CleverSudo'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_mpouya()
@@ -150,6 +162,7 @@ local function do_keyboard_mpouya()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Mehrpouya_BLTM'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local function do_keyboard_deni3d()
@@ -159,6 +172,7 @@ local function do_keyboard_deni3d()
 			{text = '▪️Goto MemBer Pv', url = 'https://t.me/AccessDeni3d'},
 			{text = '🔙', callback_data = '!members'},
     }
+		}
     return keyboard
 end
 local action = function(msg,blocks)
