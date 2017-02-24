@@ -20,7 +20,7 @@ if chat_info == 'block' then
  api.sendMessage(msg.chat.id, '_You are Blocked_ *Miss Message* :D', true) 
 else
  db:hset(hash, user_id, 'true')
- api.sendMessage(msg.chat.id, '*Chat Started!*\n_- You Can Sent Messages For BlackLifeTM Official Group._', true) 
+ api.sendMessage(msg.chat.id, '*Chat Started!*\n_- You Can Sent Messages For BlackLifeTM Official Group._\nتوجه : `اگه میخواید ادامه بدید و به این چت نیاز ندارید و از کیبورد استفاده کنید اول این چت را ببندید`\n*Use* /end *For Close Chat.*', true) 
  end
  end
 if blocks[1] == 'end' then
