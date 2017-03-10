@@ -34,9 +34,12 @@ end
 local function do_keyboard_robots()
     local keyboard = {}
     keyboard.inline_keyboard = {
-	{
+		{
+	    {text = '|Sphero-Tc Stats|', callback_data = '!sptc'},
+ },
+		{
 	    {text = '🔙', callback_data = '!home'},
- }
+ },
     }
     return keyboard
 end
@@ -354,6 +357,14 @@ You Can Know Me Better...`
             local keyboard = do_keyboard_mrblabout()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
+if query == 'sptc' then
+	   local gps = database:scard("bot:groups")
+	local users = database:scard("bot:userss")
+    local allmgs = database:get("bot:allmsgs")
+            local text = '*⬛️Sphero-Tc Stats*:\n\n> *Groups*:  `'..gps..'`\n> *Users*:  `'..users..'`\n> *All Recieved Msgs*:  `'..allmgs..'`']]
+            local keyboard = do_keyboard_sptc()
+        api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+end
 if query == 'opensources' then
             local text = [[🔱*Here For BlackLifeTM Project's
 			🔱You Can See BlackLife Open Source Projects*]]
@@ -517,6 +528,7 @@ return {
 	    '^###cb:!(fulladmin)',
 	    '^###cb:!(channels)',
 	    '^###cb:!(page2)',
+	    '^###cb:!(sptc)',
 	    '^###cb:!(pmresan)',
 	    '^###cb:!(robots)',
             '^###cb:!(mrblabout)',
