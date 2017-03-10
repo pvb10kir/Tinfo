@@ -361,7 +361,7 @@ if query == 'sptc' then
 	   local gps = database:scard("bot:groups")
 	local users = database:scard("bot:userss")
     local allmgs = database:get("bot:allmsgs")
-            local text = '*⬛️Sphero-Tc Stats*:\n\n> *Groups*:  `'..gps..'`\n> *Users*:  `'..users..'`\n> *All Recieved Msgs*:  `'..allmgs..'`']]
+            local text = '*⬛️Sphero-Tc Stats*:\n\n> *Groups*:  `'..gps..'`\n> *Users*:  `'..users..'`\n> *All Recieved Msgs*:  `'..allmgs..'`'
             local keyboard = do_keyboard_sptc()
         api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
 end
