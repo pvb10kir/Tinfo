@@ -190,7 +190,6 @@ local function do_keyboard_members()
 			{
     			{text = '✔️Clever', callback_data = '!clever'},
 			},
-			},
 			{
 	    {text = '🔙', callback_data = '!home'},
 	    }
