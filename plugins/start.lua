@@ -671,7 +671,7 @@ end
 *Project : * _Programmer | TeamBots_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-    end
+
 end
 end
 
