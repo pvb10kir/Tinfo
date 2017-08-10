@@ -287,11 +287,11 @@ local function do_keyboard_morteza()
 		}
     return keyboard
 end
-local function do_keyboard_moharak()
+local function do_keyboard_mobin()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Moharak'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Bl4CkHuNter'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
