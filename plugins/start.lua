@@ -187,6 +187,7 @@ local function do_keyboard_members()
 			{
     			{text = '✔️FeelCode', callback_data = '!fcode'},
 			{text = '✔️Ale', callback_data = '!ale'},
+			},
 			{
     			{text = '✔️Clever', callback_data = '!clever'},
 			},
