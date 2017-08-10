@@ -23,7 +23,7 @@ local function do_keyboard_mrblabout()
 {text = '🔆Github', url = 'https://github.com/3pehrdev'},
 		},
 		{
-		{text = '🔆Robot', url = 'https://t.me/Sphero_Bot'},
+		{text = '🔆Robot', url = 'https://t.me/UltraKingBot'},
 },
 	    {
 	    {text = '🔙', callback_data = '!fulladmin'}
@@ -59,11 +59,8 @@ local function do_keyboard_pmresan()
     local keyboard = {}
     keyboard.inline_keyboard = {
 		{
-	    {text = '🔺Goto Ex1 : @Sphero_Bot', url = 'https://t.me/sphero_bot'},
- },     
-			{
-	    {text = '🔺Goto Ex2 : @Send_pm_to_bot', url = 'https://t.me/Send_pm_to_bot'},
- },     
+	    {text = '🔺Goto Ex1 : @UltraKingBot', url = 'https://t.me/UltraKingbot'},
+ },         
 		{
 	    {text = '🔺MrBlackLife Private', url = 'https://t.me/MrBlackLife'},
  },     
@@ -101,7 +98,7 @@ local function do_keyboard_page2()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '✅Sign In BlackLife', callback_data = '/chat'},
+    		{text = '✅Sign In BlackLife', url = 'https://t.me/UltraKingBot?start=chat'},
 	    },
 		{
 	        {text = '🆔ChannelS', callback_data = '!channels'},
@@ -148,32 +145,51 @@ local function do_keyboard_members()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '✔️Neo Erfan', callback_data = '!neoerfan'},
-			{text = '✔️Dragon', callback_data = '!dragon'},
+    		{text = '✔️MrMagical', callback_data = '!mrmagical'},
+			{text = '✔️Developer_001', callback_data = '!dramir'},
 			},
 			{
-    		{text = '✔️Mehrad', callback_data = '!mehrad'},
-			{text = '✔️Nima', callback_data = '!nima'},
+    		{text = '✔️Moharak', callback_data = '!moharak'},
+			{text = '✔️Pouria', callback_data = '!pouria'},
 			},
 			{
-    		{text = '✔️Metti', callback_data = '!metti'},
-			{text = '✔️AmirHo3in', callback_data = '!amirh'},
+    		{text = '✔️Mehran', callback_data = '!mehran'},
+			{text = '✔️XBoy', callback_data = '!xboy'},
 			},
 			{
-    		{text = '✔️Nafas', callback_data = '!nafas'},
-			{text = '✔️Baran', callback_data = '!baran'},
+    		{text = '✔️HSC', callback_data = '!hsc'},
+			{text = '✔️Aryan', callback_data = '!aryan'},
 			},
 			{
-    		{text = '✔️Mehdi', callback_data = '!mehdi'},
-			{text = '✔️Mohammad', callback_data = '!mamad'},
+    		{text = '✔️Morteza', callback_data = '!morteza'},
+			{text = '✔️M0b!n', callback_data = '!mobin'},
 			},
 			{
-    		{text = '✔️Clever', callback_data = '!clever'},
-			{text = '✔️Ali', callback_data = '!ali'},
+    		{text = '✔️ALFBT{Parham}', callback_data = '!alfbt'},
+			{text = '✔️Parsa', callback_data = '!parsa'},
 			},
 			{
-    			{text = '✔️Mehrpouya', callback_data = '!mpouya'},
-			{text = '✔️Deni3d', callback_data = '!deni3d'},
+    			{text = '✔️MrHAlix', callback_data = '!mrhalix'},
+			{text = '✔️Alir', callback_data = '!alir'},
+			},
+			{
+    			{text = '✔️RezaRph', callback_data = '!rph'},
+			{text = '✔️MrUnix', callback_data = '!mrunix'},
+			},
+			{
+    			{text = '✔️Bestowing', callback_data = '!bowing'},
+			{text = '✔️MahdiRoO', callback_data = '!mroo'},
+			},
+			{
+    			{text = '✔️Reza', callback_data = '!reza'},
+			{text = '✔️Mehrpouya', callback_data = '!mpouya'},
+			},
+			{
+    			{text = '✔️FeelCode', callback_data = '!fcode'},
+			{text = '✔️Ale', callback_data = '!ale'},
+			{
+    			{text = '✔️Clever', callback_data = '!clever'},
+			},
 			},
 			{
 	    {text = '🔙', callback_data = '!home'},
@@ -181,97 +197,97 @@ local function do_keyboard_members()
     }
     return keyboard
 end
-local function do_keyboard_neoerfan()
+local function do_keyboard_mrmagical()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Erf4n'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/MrMagical'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_dragon()
+local function do_keyboard_dramir()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/dragon_black'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Developer_001'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_mehrad()
+local function do_keyboard_moharak()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/MrJacki'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Moharak'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_nima()
+local function do_keyboard_pouria()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/JackiDev'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/AlphaCyber'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_metti()
+local function do_keyboard_mehran()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/MrMetti'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/BoyDead'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_amirh()
+local function do_keyboard_xboy()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-		{text = '▪️Goto MemBer Pv', url = 'https://t.me/please_dont_send_pm'},	
+		{text = '▪️Goto MemBer Pv', url = 'https://t.me/XBOYY'},	
 		{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_nafas()
+local function do_keyboard_hsc()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/programmer_cli'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/hacker_server_Cyber'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_baran()
+local function do_keyboard_aryan()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Niyazrobo'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/AryawN_Si'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_mehdi()
+local function do_keyboard_morteza()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/i_am_nil'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Fraud_in_the_world'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_mamad()
+local function do_keyboard_moharak()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
@@ -291,11 +307,11 @@ local function do_keyboard_clever()
 		}
     return keyboard
 end
-local function do_keyboard_ali()
+local function do_keyboard_ale()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/CleverSudo'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/MosioDeveloper'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
@@ -305,23 +321,113 @@ local function do_keyboard_mpouya()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Mehrpouya_BLTM'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Mehrpouya'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local function do_keyboard_deni3d()
+local function do_keyboard_alfbt()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-			{text = '▪️Goto MemBer Pv', url = 'https://t.me/AccessDeni3d'},
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/ALFBT'},
 			{text = '🔙', callback_data = '!members'},
     }
 		}
     return keyboard
 end
-local action = function(msg, blocks, ln)
+local function do_keyboard_parsa()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/P_R_S_W'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_mrhalix()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/NoobSaG'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_alir()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Alirir'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_rph()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/ReZaRph'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_mrunix()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/sudoloper'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_bowing()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/Bestowing'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_mroo()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/M_a_h_D_i_R_o_O'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_reza()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/A3KARI'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local function do_keyboard_fcode()
+    local keyboard = {}
+    keyboard.inline_keyboard = {
+    	{
+			{text = '▪️Goto MemBer Pv', url = 'https://t.me/FeelCode'},
+			{text = '🔙', callback_data = '!members'},
+    }
+		}
+    return keyboard
+end
+local action = function(msg, blocks, ln)rezareza
     if blocks[1] == 'start' or blocks[1] == 'help' then
         db:hset('bot:users', msg.from.id, 'xx')
         db:hincrby('bot:general', 'users', 1)
@@ -404,102 +510,165 @@ end
 *CHoose One of iniline KeyBoards.*]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-	if query == 'neoerfan' then
-		local keyboard = do_keyboard_neoerfan()
-		local text = [[*Name :* _Erfan_
-*Age :* _14_
+	if query == 'mrmagical' then
+		local keyboard = do_keyboard_mrmagical()
+		local text = [[*Name :* _Amir_
+*Age :* _18_
 *Project : * _Design | Logo_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'dragon' then
-		local keyboard = do_keyboard_dragon()
+		if query == 'dramir' then
+		local keyboard = do_keyboard_dramir()
 		local text = [[*Name :* _Mohammad (Mamali)_
-*Age :* _... :)_
-*Project : * _Spammer | Manager_]]
+*Age :* _16_
+*Project : * _Site WebService | Coder_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'mamad' then
-		local keyboard = do_keyboard_mamad()
+		if query == 'moharak' then
+		local keyboard = do_keyboard_moharak()
 		local text = [[*Name :* _Mohammad_
-*Age :* _16_
+*Age :* _17_
 *Project : * _Graphic | Banner Designer_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'nafas' then
-		local keyboard = do_keyboard_nafas()
-		local text = [[*Name :* _Nafas_
-*Age :* _22_
-*Project : * _Programmer_]]
+		if query == 'pouria' then
+		local keyboard = do_keyboard_pouria()
+		local text = [[*Name :* _pouria_
+*Age :* _17_
+*Project : * _Programmer | Python Php Bots_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'baran' then
-		local keyboard = do_keyboard_baran()
-		local text = [[*Name :* _Baran_
+		if query == 'mehran' then
+		local keyboard = do_keyboard_mehran()
+		local text = [[*Name :* _Mehran_
 *Age :* _20_
-*Project : * _Support CLI Bots_]]
+*Project : * _Applications_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'mehrad' then
-		local keyboard = do_keyboard_mehrad()
-		local text = [[*Name :* _Mehrad_
-*Age :* _22_
-*Project : * _Dev | fix | Edit ClI|API Bots_]]
+		if query == 'xboy' then
+		local keyboard = do_keyboard_xboy()
+		local text = [[*Name :* _Mohammad_
+*Age :* _18_
+*Project : * _Site Designer | Developer_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'amirh' then
-		local keyboard = do_keyboard_amirh()
-		local text = [[*Name :* _Amirhossein_
+		if query == 'hsc' then
+		local keyboard = do_keyboard_hsc()
+		local text = [[*Name :* _Omid_
 *Age :* _19_
-*Project : * _Edit|Fix Bots_]]
+*Project : * _Cracker_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'nima' then
-		local keyboard = do_keyboard_nima()
-		local text = [[*Name :* _Nima_
+		if query == 'aryan' then
+		local keyboard = do_keyboard_aryan()
+		local text = [[*Name :* _Aryan_
 *Age :* _16_
 *Project : * _Write | Debug Cli Bots_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'metti' then
-		local keyboard = do_keyboard_metti()
-		local text = [[*Name :* _Mehdi_
-*Age :* _17_
-*Project : * _Dev API python Bot's_]]
+		if query == 'morteza' then
+		local keyboard = do_keyboard_morteza()
+		local text = [[*Name :* _Morteza_
+*Age :* _19_
+*Project : * _Php And C# Programmer_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
-		if query == 'deni3d' then
-		local keyboard = do_keyboard_deni3d()
-		local text = [[*Name :* _Mohammad_
-*Age :* _17_
-*Project : * _Telegram API|CLI Bots_]]
+		if query == 'mobin' then
+		local keyboard = do_keyboard_mobin()
+		local text = [[*Name :* _Mobin_
+*Age :* _19_
+*Project : * _Site Security | Coder | Defacer_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'alfbt' then
+		local keyboard = do_keyboard_alfbt()
+		local text = [[*Name :* _Parham_
+*Age :* _16_
+*Project : * _Crack | Site Dev | Security_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'parsa' then
+		local keyboard = do_keyboard_parsa()
+		local text = [[*Name :* _Parsa_
+*Age :* _18_
+*Project : * _Dev | Debug php Bots_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'alir' then
+		local keyboard = do_keyboard_alir()
+		local text = [[*Name :* _Ali_
+*Age :* _16_
+*Project : * _Developer | TeamBots_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'mrhalix' then
+		local keyboard = do_keyboard_mrhalix()
+		local text = [[*Name :* _Amin_
+*Age :* _18_
+*Project : * _Python Php And LUA Coder | Programmer_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'rph' then
+		local keyboard = do_keyboard_rph()
+		local text = [[*Name :* _Reza_
+*Age :* _16_
+*Project : * _Programmer | TelegramBots_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'mrunix' then
+		local keyboard = do_keyboard_mrunix()
+		local text = [[*Name :* _arya_
+*Age :* _16_
+*Project : * _Programmer | Hosting_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'bowing' then
+		local keyboard = do_keyboard_bowing()
+		local text = [[*Name :* _Nafas_
+*Age :* _15_
+*Project : * _Bot Editor_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'mroo' then
+		local keyboard = do_keyboard_mroo()
+		local text = [[*Name :* _Mahdi_
+*Age :* _13_
+*Project : * _Lua Dev | TeamBots_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'reza' then
+		local keyboard = do_keyboard_reza()
+		local text = [[*Name :* _Reza_
+*Age :* _13_
+*Project : * _Bots Edit_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'mpouya' then
 		local keyboard = do_keyboard_mpouya()
 		local text = [[*Name :* _Mehrpouya_
 *Age :* _15_
-*Project : * _Cli Bots | Site Dev_]]
+*Project : * _Programmer | API Bots_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'fcode' then
+		local keyboard = do_keyboard_fcode()
+		local text = [[*Name :* _Amir_
+*Age :* _16_
+*Project : * _Programmer | Developer_]]
+		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
+    end
+		if query == 'ale' then
+		local keyboard = do_keyboard_ale()
+		local text = [[*Name :* _Ale_
+*Age :* _15_
+*Project : * _Bikarrrrrr_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
 		if query == 'clever' then
 		local keyboard = do_keyboard_clever()
-		local text = [[*Name :* _---_
-*Age :* _18_
-*Project : * _Dev | Debug php Bots_]]
-		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
-    end
-		if query == 'ali' then
-		local keyboard = do_keyboard_ali()
-		local text = [[*Name :* _Ali_
-*Age :* _13_
+		local text = [[*Name :* _Clever_
+*Age :* _17_
 *Project : * _Programmer | TeamBots_]]
-		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
-    end
-		if query == 'mehdi' then
-		local keyboard = do_keyboard_mehdi()
-		local text = [[*Name :* _Mehdi_
-*Age :* _18_
-*Project : * _Virtual Number's | AntiSpam_]]
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
     end
@@ -509,7 +678,7 @@ end
 return {
 	action = action,
 	triggers = {
-	    '^/(start)@Sphero_Bot$',
+	    '^/(start)@BlackLifeBot$',
 	    '^/(start)$',
 	    '^/(help)$',
 	    '^/(ver)$',
@@ -523,20 +692,29 @@ return {
 	    '^###cb:!(opensources)',
 	    '^###cb:!(share)',
 	'^###cb:!(members)',
-	    '^###cb:!(neoerfan)',
-	'^###cb:!(dragon)',
-	'^###cb:!(mamad)',
-	 '^###cb:!(nafas)',
-	'^###cb:!(baran)',
-	'^###cb:!(mehrad)',
-	'^###cb:!(amirh)',
-	'^###cb:!(nima)',
-	'^###cb:!(mehdi)',
-	'^###cb:!(metti)',
-	'^###cb:!(deni3d)',
+	    '^###cb:!(dramir)',
+	'^###cb:!(pouria)',
+	'^###cb:!(fcode)',
+	 '^###cb:!(reza)',
+	'^###cb:!(mroo)',
+	'^###cb:!(xboy)',
+	'^###cb:!(hsc)',
+	'^###cb:!(aryan)',
+	'^###cb:!(bowing)',
+	'^###cb:!(mrunix)',
+	'^###cb:!(rph)',
+	'^###cb:!(morteza)',
+	'^###cb:!(alir)',
+	'^###cb:!(mobin)',
+	'^###cb:!(alfbt)',
+	'^###cb:!(parsa)',
+	'^###cb:!(mrmagical)',
+	'^###cb:!(mehran)',
+	'^###cb:!(mrhalix)',
+	'^###cb:!(moharak)',
 	'^###cb:!(mpouya)',
 	'^###cb:!(clever)',
-	'^###cb:!(ali)',
+	'^###cb:!(ale)',
 
     }
 }
