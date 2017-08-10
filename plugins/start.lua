@@ -427,7 +427,7 @@ local function do_keyboard_fcode()
 		}
     return keyboard
 end
-local action = function(msg, blocks, ln)rezareza
+local action = function(msg, blocks, ln)
     if blocks[1] == 'start' or blocks[1] == 'help' then
         db:hset('bot:users', msg.from.id, 'xx')
         db:hincrby('bot:general', 'users', 1)
