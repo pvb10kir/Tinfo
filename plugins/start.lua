@@ -427,7 +427,6 @@ local function do_keyboard_fcode()
 		}
     return keyboard
 end
-end
 local action = function(msg, blocks, ln)rezareza
     if blocks[1] == 'start' or blocks[1] == 'help' then
         db:hset('bot:users', msg.from.id, 'xx')
@@ -673,7 +672,7 @@ end
 		api.editMessageText(msg.chat.id, msg_id, text, keyboard, true)
     end
     end
-
+end
 end
 
 return {
